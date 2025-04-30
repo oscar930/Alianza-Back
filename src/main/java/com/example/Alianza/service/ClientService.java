@@ -15,5 +15,5 @@ public interface  ClientService {
     List<ClientDTO> getAllClients();
     ClientDTO createClient(ClientDTO clientDTO);
     List<ClientDTO> searchClients(String sharedKey);
-
+    List<ClientDTO> searchClientsAll(String sharedKey, String businessId, String email, String phone, String startDate, String endDate);
 }

@@ -50,6 +50,11 @@ public class ClientServiceImpl implements ClientService {
                 .collect(Collectors.toList());
     }
 
+    public List<ClientDTO> searchClientsAll(String sharedKey, String businessId, String email, String phone, String startDate, String endDate) {
+        List<Client> filteredClients = clientRepository.findByFilters(sharedKey, businessId, email, phone, startDate, endDate);
+        return filteredClients.stream().map(this::convertToDTO).toList();
+    }
+
     private ClientDTO convertToDTO(Client client) {
         return new ClientDTO(
                 client.getSharedKey(),

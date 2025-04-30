@@ -46,4 +46,19 @@ public class ClientController {
         logger.debug("Recibe el request para consulta con sharedKey: {}", sharedKey);
         return clientService.searchClients(sharedKey);
     }
+
+    @GetMapping("/search-all")
+    public List<ClientDTO> searchClients(
+            @RequestParam(required = false) String sharedKey,
+            @RequestParam(required = false) String businessId,
+            @RequestParam(required = false) String email,
+            @RequestParam(required = false) String phone,
+            @RequestParam(required = false) String startDate,
+            @RequestParam(required = false) String endDate) {
+
+        logger.debug("Request de búsqueda con filtros: sharedKey={}, businessId={}, email={}, phone={}, startDate={}, endDate={}",
+                sharedKey, businessId, email, phone, startDate, endDate);
+
+        return clientService.searchClientsAll(sharedKey, businessId, email, phone, startDate, endDate);
+    }
 }
