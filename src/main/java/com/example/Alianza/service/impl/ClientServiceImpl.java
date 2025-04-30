@@ -2,8 +2,11 @@ package com.example.Alianza.service.impl;
 
 import com.example.Alianza.dto.ClientDTO;
 import com.example.Alianza.entity.Client;
+import com.example.Alianza.exception.InvalidDataException;
+import com.example.Alianza.exception.ResourceNotFoundException;
 import com.example.Alianza.repository.ClientRepository;
 import com.example.Alianza.service.ClientService;
+import org.flywaydb.core.internal.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -26,7 +29,14 @@ public class ClientServiceImpl implements ClientService {
     @Override
     public List<ClientDTO> getAllClients() {
         logger.info("Consultar todos los clientes");
-        return clientRepository.findAll().stream()
+        List<Client> clients = clientRepository.findAll();
+
+        if(clients.isEmpty()) {
+            logger.warn("No se encontraron clientes en la base de datos");
+            throw new ResourceNotFoundException("No se encontraron clientes");
+        }
+
+        return clients.stream()
                 .map(this::convertToDTO)
                 .collect(Collectors.toList());
     }
@@ -44,8 +54,20 @@ public class ClientServiceImpl implements ClientService {
     }
 
     public List<ClientDTO> searchClients(String sharedKey) {
+
+        if(!StringUtils.hasText(sharedKey)) {
+            logger.error("El parámetro sharedKey no puede estar vacío");
+            throw new InvalidDataException("El parámetro sharedKey es requerido");
+        }
         logger.info("Buscar Cliente con sharedKey: {}", sharedKey);
-        return clientRepository.findBySharedKeyContainingIgnoreCase(sharedKey).stream()
+        List<Client> clients = clientRepository.findBySharedKeyContainingIgnoreCase(sharedKey);
+
+        if(clients.isEmpty()) {
+            logger.warn("No se encontraron clientes con sharedKey que contenga: {}", sharedKey);
+            throw new ResourceNotFoundException("No se encontraron clientes con el criterio de búsqueda");
+        }
+
+        return clients.stream()
                 .map(this::convertToDTO)
                 .collect(Collectors.toList());
     }
@@ -56,6 +78,9 @@ public class ClientServiceImpl implements ClientService {
     }
 
     private ClientDTO convertToDTO(Client client) {
+        if(client == null) {
+            throw new InvalidDataException("El cliente no puede ser nulo para la conversión");
+        }
         return new ClientDTO(
                 client.getSharedKey(),
                 client.getBusinessId(),
@@ -67,6 +92,10 @@ public class ClientServiceImpl implements ClientService {
     }
 
     private Client convertToEntity(ClientDTO dto) {
+        if(dto == null) {
+            throw new InvalidDataException("El DTO no puede ser nulo para la conversión");
+        }
+
         Client client = new Client();
         client.setSharedKey(dto.getSharedKey());
         client.setBusinessId(dto.getBusinessId());

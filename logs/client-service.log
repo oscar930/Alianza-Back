@@ -1223,3 +1223,286 @@ java.lang.NoSuchMethodError: 'boolean io.swagger.v3.oas.models.media.Schema.getE
 2025-04-30 09:59:19.047 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2025-04-30 09:59:19.049 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
 2025-04-30 09:59:19.707 [http-nio-8080-exec-2] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 258 ms
+2025-04-30 10:47:50.650 [http-nio-8080-exec-5] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 10:47:50.835 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@722945de (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-30 10:47:50.838 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@191c42f7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-30 10:47:50.843 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7d24548 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-30 10:47:50.845 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3f6de7d9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-30 10:47:50.847 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32895bce (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-30 10:47:50.849 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4979ac92 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-30 10:47:50.850 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c9448f0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-30 10:47:50.851 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c972f94 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-30 10:47:50.852 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@74b842e3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-30 10:48:16.110 [http-nio-8080-exec-10] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 10:48:41.502 [http-nio-8080-exec-2] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 10:58:26.052 [main] INFO  c.e.Alianza.AlianzaApplicationTests - Starting AlianzaApplicationTests using Java 17.0.12 with PID 41636 (started by OPI in C:\Users\OPI\Documents\Oscar\Prueba Tecnica\Alianza-Back)
+2025-04-30 10:58:26.053 [main] INFO  c.e.Alianza.AlianzaApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 10:58:27.491 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30 10:58:27.638 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 1 JPA repository interface.
+2025-04-30 10:58:28.598 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-30 10:58:28.950 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4409cae6
+2025-04-30 10:58:28.954 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-30 10:58:29.121 [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+2025-04-30 10:58:29.122 [main] INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-04-30 10:58:29.122 [main] INFO  o.f.c.i.license.VersionPrinter - 
+2025-04-30 10:58:29.232 [main] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/clientdb (MySQL 8.0)
+2025-04-30 10:58:29.402 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.057s)
+2025-04-30 10:58:29.438 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `clientdb`: 2
+2025-04-30 10:58:29.445 [main] INFO  o.f.core.internal.command.DbMigrate - Schema `clientdb` is up to date. No migration necessary.
+2025-04-30 10:58:29.665 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30 10:58:29.819 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30 10:58:29.912 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-30 10:58:30.653 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30 10:58:30.747 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30 10:58:30.750 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-30 10:58:30.773 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-30 10:58:31.656 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30 10:58:31.659 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 10:58:32.198 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-30 10:58:34.161 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30 10:58:34.263 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-30 10:58:35.170 [main] INFO  c.e.Alianza.AlianzaApplicationTests - Started AlianzaApplicationTests in 9.585 seconds (process running for 15.326)
+2025-04-30 10:58:36.505 [main] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 10:58:36.520 [main] INFO  c.e.Alianza.service.ClientService - Buscar Cliente con sharedKey: sharedKey
+2025-04-30 10:58:36.526 [main] INFO  c.e.Alianza.service.ClientService - Crear Cliente con sharedKey: sharedKey123
+2025-04-30 10:58:36.601 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 10:58:36.607 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-30 10:58:36.627 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-30 10:58:44.392 [restartedMain] INFO  c.example.Alianza.AlianzaApplication - Starting AlianzaApplication using Java 17.0.12 with PID 7252 (C:\Users\OPI\Documents\Oscar\Prueba Tecnica\Alianza-Back\target\classes started by OPI in C:\Users\OPI\Documents\Oscar\Prueba Tecnica\Alianza-Back)
+2025-04-30 10:58:44.394 [restartedMain] INFO  c.example.Alianza.AlianzaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 10:58:44.442 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-30 10:58:44.442 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-30 10:58:45.172 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30 10:58:45.220 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2025-04-30 10:58:45.774 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 10:58:45.786 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 10:58:45.787 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 10:58:45.788 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 10:58:45.830 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 10:58:45.831 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1388 ms
+2025-04-30 10:58:45.916 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-30 10:58:46.068 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3eae37ee
+2025-04-30 10:58:46.069 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-30 10:58:46.136 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+2025-04-30 10:58:46.137 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-04-30 10:58:46.137 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - 
+2025-04-30 10:58:46.155 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/clientdb (MySQL 8.0)
+2025-04-30 10:58:46.225 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.024s)
+2025-04-30 10:58:46.247 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `clientdb`: 2
+2025-04-30 10:58:46.251 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `clientdb` is up to date. No migration necessary.
+2025-04-30 10:58:46.353 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30 10:58:46.400 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30 10:58:46.434 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-30 10:58:46.672 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30 10:58:46.722 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30 10:58:46.724 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-30 10:58:46.738 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-30 10:58:47.638 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30 10:58:47.643 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 10:58:47.955 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-30 10:58:49.146 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30 10:58:49.186 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-30 10:58:49.613 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-30 10:58:49.633 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-30 10:58:49.665 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-30 10:58:49.675 [restartedMain] INFO  c.example.Alianza.AlianzaApplication - Started AlianzaApplication in 5.807 seconds (process running for 6.173)
+2025-04-30 11:00:12.744 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-30 11:00:12.745 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-30 11:00:12.747 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-30 11:00:13.309 [http-nio-8080-exec-6] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 11:13:18.435 [http-nio-8080-exec-4] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 11:13:23.940 [http-nio-8080-exec-2] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 11:14:06.808 [http-nio-8080-exec-8] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 11:14:15.201 [http-nio-8080-exec-3] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 11:16:12.154 [http-nio-8080-exec-6] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 11:16:49.685 [http-nio-8080-exec-4] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 11:18:14.888 [http-nio-8080-exec-2] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 12:47:19.018 [main] INFO  c.e.Alianza.AlianzaApplicationTests - Starting AlianzaApplicationTests using Java 17.0.12 with PID 26240 (started by OPI in C:\Users\OPI\Documents\Oscar\Prueba Tecnica\Alianza-Back)
+2025-04-30 12:47:19.022 [main] INFO  c.e.Alianza.AlianzaApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 12:47:20.869 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30 12:47:20.990 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2025-04-30 12:47:21.762 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-30 12:47:22.132 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37ca3ca8
+2025-04-30 12:47:22.136 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-30 12:47:22.315 [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+2025-04-30 12:47:22.316 [main] INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-04-30 12:47:22.316 [main] INFO  o.f.c.i.license.VersionPrinter - 
+2025-04-30 12:47:22.467 [main] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/clientdb (MySQL 8.0)
+2025-04-30 12:47:22.785 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.093s)
+2025-04-30 12:47:22.823 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `clientdb`: 2
+2025-04-30 12:47:22.832 [main] INFO  o.f.core.internal.command.DbMigrate - Schema `clientdb` is up to date. No migration necessary.
+2025-04-30 12:47:23.077 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30 12:47:23.220 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30 12:47:23.345 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-30 12:47:24.027 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30 12:47:24.132 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30 12:47:24.133 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-30 12:47:24.155 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-30 12:47:25.066 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30 12:47:25.069 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 12:47:25.668 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-30 12:47:28.178 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30 12:47:28.306 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-30 12:47:29.515 [main] INFO  c.e.Alianza.AlianzaApplicationTests - Started AlianzaApplicationTests in 11.206 seconds (process running for 13.235)
+2025-04-30 12:47:31.172 [main] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 12:47:31.189 [main] INFO  c.e.Alianza.service.ClientService - Buscar Cliente con sharedKey: sharedKey
+2025-04-30 12:47:31.198 [main] INFO  c.e.Alianza.service.ClientService - Crear Cliente con sharedKey: sharedKey123
+2025-04-30 12:47:31.268 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 12:47:31.275 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-30 12:47:31.295 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-30 12:47:41.034 [restartedMain] INFO  c.example.Alianza.AlianzaApplication - Starting AlianzaApplication using Java 17.0.12 with PID 40484 (C:\Users\OPI\Documents\Oscar\Prueba Tecnica\Alianza-Back\target\classes started by OPI in C:\Users\OPI\Documents\Oscar\Prueba Tecnica\Alianza-Back)
+2025-04-30 12:47:41.035 [restartedMain] INFO  c.example.Alianza.AlianzaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 12:47:41.081 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-30 12:47:41.081 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-30 12:47:41.821 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30 12:47:41.878 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2025-04-30 12:47:42.452 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 12:47:42.465 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 12:47:42.467 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 12:47:42.467 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 12:47:42.528 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 12:47:42.529 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1446 ms
+2025-04-30 12:47:42.643 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-30 12:47:42.984 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ff6cb45
+2025-04-30 12:47:42.987 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-30 12:47:43.100 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+2025-04-30 12:47:43.100 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-04-30 12:47:43.101 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - 
+2025-04-30 12:47:43.157 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/clientdb (MySQL 8.0)
+2025-04-30 12:47:43.290 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.042s)
+2025-04-30 12:47:43.346 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `clientdb`: 2
+2025-04-30 12:47:43.353 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `clientdb` is up to date. No migration necessary.
+2025-04-30 12:47:43.454 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30 12:47:43.565 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30 12:47:43.617 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-30 12:47:43.924 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30 12:47:43.991 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30 12:47:43.992 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-30 12:47:44.008 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-30 12:47:44.762 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30 12:47:44.764 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 12:47:45.034 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-30 12:47:46.441 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30 12:47:46.512 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-30 12:47:46.943 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-30 12:47:46.955 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-30 12:47:46.979 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-30 12:47:46.987 [restartedMain] INFO  c.example.Alianza.AlianzaApplication - Started AlianzaApplication in 6.451 seconds (process running for 6.883)
+2025-04-30 12:52:24.810 [main] INFO  c.e.Alianza.AlianzaApplicationTests - Starting AlianzaApplicationTests using Java 17.0.12 with PID 15052 (started by OPI in C:\Users\OPI\Documents\Oscar\Prueba Tecnica\Alianza-Back)
+2025-04-30 12:52:24.812 [main] INFO  c.e.Alianza.AlianzaApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 12:52:26.343 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30 12:52:26.451 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2025-04-30 12:52:27.084 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-30 12:52:27.382 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6321a5aa
+2025-04-30 12:52:27.385 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-30 12:52:27.580 [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+2025-04-30 12:52:27.580 [main] INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-04-30 12:52:27.580 [main] INFO  o.f.c.i.license.VersionPrinter - 
+2025-04-30 12:52:27.634 [main] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/clientdb (MySQL 8.0)
+2025-04-30 12:52:27.840 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.081s)
+2025-04-30 12:52:27.905 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `clientdb`: 2
+2025-04-30 12:52:27.915 [main] INFO  o.f.core.internal.command.DbMigrate - Schema `clientdb` is up to date. No migration necessary.
+2025-04-30 12:52:28.193 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30 12:52:28.355 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30 12:52:28.466 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-30 12:52:29.173 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30 12:52:29.265 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30 12:52:29.266 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-30 12:52:29.291 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-30 12:52:30.088 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30 12:52:30.091 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 12:52:30.660 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-30 12:52:32.731 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30 12:52:32.859 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-30 12:52:33.973 [main] INFO  c.e.Alianza.AlianzaApplicationTests - Started AlianzaApplicationTests in 9.69 seconds (process running for 11.806)
+2025-04-30 12:52:35.512 [main] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 12:52:35.530 [main] INFO  c.e.Alianza.service.ClientService - Buscar Cliente con sharedKey: sharedKey
+2025-04-30 12:52:35.536 [main] INFO  c.e.Alianza.service.ClientService - Crear Cliente con sharedKey: sharedKey123
+2025-04-30 12:52:35.631 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 12:52:35.638 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-30 12:52:35.667 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-30 12:52:45.455 [restartedMain] INFO  c.example.Alianza.AlianzaApplication - Starting AlianzaApplication using Java 17.0.12 with PID 37672 (C:\Users\OPI\Documents\Oscar\Prueba Tecnica\Alianza-Back\target\classes started by OPI in C:\Users\OPI\Documents\Oscar\Prueba Tecnica\Alianza-Back)
+2025-04-30 12:52:45.458 [restartedMain] INFO  c.example.Alianza.AlianzaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 12:52:45.513 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-30 12:52:45.514 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-30 12:52:46.592 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30 12:52:46.667 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2025-04-30 12:52:47.820 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-30 12:52:47.840 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-30 12:52:47.842 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-30 12:52:47.843 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30 12:52:47.948 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-30 12:52:47.948 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2434 ms
+2025-04-30 12:52:48.157 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-30 12:52:48.469 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bc3a1ef
+2025-04-30 12:52:48.470 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-30 12:52:48.567 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+2025-04-30 12:52:48.567 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-04-30 12:52:48.567 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - 
+2025-04-30 12:52:48.599 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/clientdb (MySQL 8.0)
+2025-04-30 12:52:48.711 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.047s)
+2025-04-30 12:52:48.753 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `clientdb`: 2
+2025-04-30 12:52:48.758 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `clientdb` is up to date. No migration necessary.
+2025-04-30 12:52:48.871 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30 12:52:48.928 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30 12:52:48.986 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-30 12:52:49.311 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30 12:52:49.379 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30 12:52:49.381 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-30 12:52:49.404 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-30 12:52:50.520 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30 12:52:50.524 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 12:52:50.838 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-30 12:52:52.545 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30 12:52:52.594 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-30 12:52:53.228 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-30 12:52:53.247 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-30 12:52:53.293 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-30 12:52:53.309 [restartedMain] INFO  c.example.Alianza.AlianzaApplication - Started AlianzaApplication in 8.539 seconds (process running for 9.206)
+2025-04-30 12:53:05.381 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-30 12:53:05.381 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-30 12:53:05.383 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-30 12:53:05.460 [http-nio-8080-exec-1] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
+2025-04-30 12:53:26.201 [http-nio-8080-exec-6] INFO  c.e.Alianza.service.ClientService - Consultar todos los clientes
